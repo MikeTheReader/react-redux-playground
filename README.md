@@ -7,3 +7,4 @@ set of sample JSON APIs to play around with things. Currently, it uses redux-thu
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+The site can be seen here: (http://mikethereader.com/react-redux-playground/)
