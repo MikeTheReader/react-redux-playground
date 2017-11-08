@@ -2,7 +2,9 @@
   "name": "react_redux_playground",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://MikeTheReader.github.com/react-redux-playground",
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "isomorphic-fetch": "^2.2.1",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
@@ -13,6 +15,8 @@
     "redux-thunk": "^2.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
